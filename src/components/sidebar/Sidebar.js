@@ -33,7 +33,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
                 <h2>Escolha</h2>
                 <div className="sidebar_link">   
                     <i><FontAwesomeIcon icon={faPerson} /></i>
-                    <a href="#">Personagem</a>
+                    <a href="#">Personagens</a>
                 </div>
                 <div className="sidebar_link">   
                     <i><FontAwesomeIcon icon={faGlobe} /></i>

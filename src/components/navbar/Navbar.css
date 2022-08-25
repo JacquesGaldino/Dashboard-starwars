@@ -18,7 +18,7 @@
     color: #a5aaad;
 }
 
-navbar_left > a {
+.navbar_left > a {
     margin-right: 30px;
     text-decoration: none;
     color: #a5aaad;
@@ -38,13 +38,28 @@ navbar_left > a {
     align-items: center;
 }
 
-.navbar_right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar_right > a {
     margin-left: 20px;
     text-decoration: none;
+}
+
+.navbar_right > a > i {
+    color: #a5aaad;
+    font-size: 18px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px 2px 5px #FFF;
+    padding: 7px;
+}
+
+@media only screen and (max-width: 978px) {
+    .nav_icon {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar_left {
+        display: none;
+    }
 }
